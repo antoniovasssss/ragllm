@@ -1,0 +1,40 @@
+[project]
+name = "bot1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    # Core
+    "python-dotenv>=1.2.2",
+    "ipykernel>=7.3.0",
+    # Web UI
+    "gradio>=6.18.0",
+    # LangChain ecosystem
+    "langchain>=1.3.8",
+    "langchain-core>=1.4.6",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.3.0",
+    "langchain-huggingface>=1.2.2",
+    "langchain-chroma>=1.1.0",
+    "langgraph>=1.2.4",
+    # Vector DB
+    "pinecone-client>=6.0.0",
+    "langchain-pinecone>=0.2.13",
+    # Embeddings + NLP
+    "openai>=2.41.1",
+    "tiktoken>=0.13.0",
+    "transformers>=5.11.0",
+    "torch>=2.12.0",
+    # Document loaders / parsing
+    "beautifulsoup4>=4.15.0",
+    "lxml>=6.1.1",
+    "pypdf>=6.13.2",
+    "unstructured>=0.23.1",
+    "wikipedia>=1.4.0",
+    # Utilities
+    "scipy>=1.17.1",
+    "scraper>=0.1.0",
+    "google>=3.0.0",
+    "google-generativeai>=0.8.6",
+]
